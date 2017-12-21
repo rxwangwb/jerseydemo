@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+    <package name="videoAlarm" namespace="/videoAlarm" extends="my-struts">
+        <action name="selectEpcpVideoAlarms" class="com.ssmweb.videoAlarm.action.EpcpVideoAlarmAction"
+                method="selectEpcpVideoAlarms">
+            <result name="SUCCESS">/index.jsp</result>
+        </action>
+    </package>
+</struts>
