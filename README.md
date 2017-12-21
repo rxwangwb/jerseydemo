@@ -1,8 +1,12 @@
-## ssmweb-base分支说明
+# 用Jersey构建RESTful服务
 
-此分支实现功能：
+## 环境说明
 
-1. 基于maven搭建的ssm框架(spring+struts+mybatis)；
-2. 日志整合为Log4j2；
-3. 测试url:localhost:8080/ssmweb/videoAlarm/selectEpcpVideoAlarms.action；
-4. 增加bootstrap支持
+* jdk版本：jdk 1.8
+* tomcat版本：7.0
+* jersey版本：
+
+## 框架说明：
+
+* 基于maven搭建的ssm框架(spring+struts+mybatis)；
+* 日志整合为Log4j2；
