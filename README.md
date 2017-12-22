@@ -23,3 +23,7 @@
 2.demo2
 
 **说明:** 通过web service将一个Java实体类转换为XML格式返回。
+
+3.demo3
+
+**说明:** 通过web service将一个Java实体类转换为JSON格式返回。
