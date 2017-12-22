@@ -4,7 +4,8 @@
 
 * jdk版本：jdk 1.8
 * tomcat版本：7.0
-* jersey版本：
+* jersey版本：2.26
+* javax版本：2.1
 
 ## 框架说明：
 
