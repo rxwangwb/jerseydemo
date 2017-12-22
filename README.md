@@ -10,3 +10,14 @@
 
 * 基于maven搭建的ssm框架(spring+struts+mybatis)；
 * 日志整合为Log4j2；
+
+
+## 示例说明
+
+1.demo1
+
+**说明:** 通过web service打印Hello World!
+
+2.demo2
+
+**说明:** 通过web service将一个Java实体类转换为XML格式返回。

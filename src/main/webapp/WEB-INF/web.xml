@@ -59,6 +59,7 @@
             <param-name>jersey.config.server.provider.packages</param-name>
             <param-value>
                 com.demo1.resources
+                com.demo2.resources
             </param-value>
         </init-param>
         <load-on-startup>1</load-on-startup>
