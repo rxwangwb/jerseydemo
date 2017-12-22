@@ -6,6 +6,7 @@
 * tomcat版本：7.0
 * jersey版本：2.26
 * javax版本：2.1
+* IDE:IntelliJ IDEA 2017.2.4
 
 ## 框架说明：
 
