@@ -5,7 +5,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 /**
  * 用户实体类
- * <p>
+ *
  * XmlRootElement表示将bean转换为xml，用在实体类中，
  * 如果要将bean以xml或json的格式返回，必须要这个注解
  */
