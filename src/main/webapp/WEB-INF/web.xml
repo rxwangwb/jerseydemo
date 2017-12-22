@@ -61,6 +61,7 @@
                 com.demo1.resources
                 com.demo2.resources
                 com.demo3.resources
+                com.demo4.resources
             </param-value>
         </init-param>
         <init-param>
