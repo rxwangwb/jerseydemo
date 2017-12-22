@@ -27,3 +27,7 @@
 3.demo3
 
 **说明:** 通过web service将一个Java实体类转换为JSON格式返回。
+
+4.demo4
+
+**说明:** 使用Jersey构建RESTful服务之通过jersey-client客户端调用web服务模拟CURD操作。
