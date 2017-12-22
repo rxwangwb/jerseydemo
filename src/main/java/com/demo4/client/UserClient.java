@@ -1,6 +1,7 @@
 package com.demo4.client;
 
-import com.demo4.bean.User;
+
+import com.usermanager.pojo.User;
 
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;

@@ -1,7 +1,8 @@
 package com.demo3.resources;
 
 
-import com.demo3.bean.User;
+
+import com.usermanager.pojo.User;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;

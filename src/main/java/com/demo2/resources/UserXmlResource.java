@@ -1,6 +1,7 @@
 package com.demo2.resources;
 
-import com.demo2.bean.User;
+
+import com.usermanager.pojo.User;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -12,7 +13,7 @@ import java.util.List;
 import java.util.Map;
 
 @Path("/userresource")
-public class UserResource {
+public class UserXmlResource {
     private static Map<String,User> userMap = new HashMap<String,User>();//存储用户
 
     /**

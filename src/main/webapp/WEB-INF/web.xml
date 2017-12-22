@@ -15,7 +15,7 @@
     <!--设置spring 配置文件的位置-->
     <context-param>
         <param-name>contextConfigLocation</param-name>
-        <param-value>classpath*:config/spring/applicationContext.xml</param-value>
+        <param-value>classpath*:config/spring/applicationContext-*.xml</param-value>
     </context-param>
     <!--配置spring listener-->
     <listener>

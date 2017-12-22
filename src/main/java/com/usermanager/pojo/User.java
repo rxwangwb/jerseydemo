@@ -1,4 +1,4 @@
-package com.demo2.bean;
+package com.usermanager.pojo;
 
 import javax.xml.bind.annotation.XmlRootElement;
 

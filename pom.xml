@@ -25,6 +25,11 @@
         <spring.version>4.3.8.RELEASE</spring.version>
         <!--struts-->
         <struts2.version>2.5.12</struts2.version>
+        <!-- mybatis版本号 -->
+        <mybatis.version>3.2.7</mybatis.version>
+        <mybatis-spring.version>1.2.2</mybatis-spring.version>
+        <!-- MYSQL驱动 -->
+        <mysql-connector-java.version>5.1.6</mysql-connector-java.version>
         <!-- junit -->
         <junit.version>4.11</junit.version>
         <jersey2.version>2.26</jersey2.version>
@@ -68,6 +73,18 @@
             <artifactId>struts2-config-browser-plugin</artifactId>
             <version>${struts2.version}</version>
         </dependency>
+        <!-- mybatis核心包 -->
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis</artifactId>
+            <version>${mybatis.version}</version>
+        </dependency>
+        <!-- mybatis/spring包 -->
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis-spring</artifactId>
+            <version>${mybatis-spring.version}</version>
+        </dependency>
         <!-- 日志文件管理包 -->
         <!--Log4j2配置-->
         <dependency>
@@ -87,6 +104,19 @@
         </dependency>
 
         <!-- log end -->
+        <!--mysql driver -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql-connector-java.version}</version>
+        </dependency>
+        <!--c3p0数据库-->
+        <dependency>
+            <groupId>c3p0</groupId>
+            <artifactId>c3p0</artifactId>
+            <version>0.9.1.2</version>
+        </dependency>
+
         <!-- JAX-RS -->
         <dependency>
             <groupId>javax.ws.rs</groupId>
@@ -122,7 +152,6 @@
     </dependencies>
     <build>
         <finalName>jerseydemo</finalName>
-        <!-- mybatis-generator插件-->
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

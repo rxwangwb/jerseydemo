@@ -1,6 +1,7 @@
 package com.demo4.resources;
 
-import com.demo4.bean.User;
+
+import com.usermanager.pojo.User;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
